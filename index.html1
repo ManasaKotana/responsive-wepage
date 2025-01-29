@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intervue - Technical Interview Resources</title>
+    
+    <!-- Import Sora font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">Intervue</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Discover Resources</a></li>
+                <li><a href="#">On-Demand</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Live Interview</a></li>
+                <li><button class="btn">Sign In</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <h1>Technical Interview Resources</h1>
+        <p>Find the best technical interview resources, tests, and guides.</p>
+        <input type="text" placeholder="Search for interview topics...">
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources">
+        <div class="resource-card category-blue">Data Structures</div>
+        <div class="resource-card category-yellow">Machine Learning</div>
+        <div class="resource-card category-green">Frontend Development</div>
+        <div class="resource-card category-blue">Backend Development</div>
+        <div class="resource-card category-yellow">System Design</div>
+        <div class="resource-card category-green">Security</div>
+    </section>
+
+    <!-- Security Section -->
+    <section class="security">
+        <h2>Security is our top priority</h2>
+        <div class="security-items">
+            <div class="security-item">Security</div>
+            <div class="security-item">Optimized Performance</div>
+            <div class="security-item">Data Privacy</div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="video-container">
+            <img src="video-thumbnail.jpg" alt="Interview Video">
+            <p>Expert insights on cracking interviews</p>
+        </div>
+    </section>
+
+    <!-- Other Products -->
+    <section class="products">
+        <h2>Explore more products on Intervue</h2>
+        <div class="product-card">AI Interview Feedback</div>
+        <div class="product-card">Live Interviews</div>
+        <div class="product-card">Assessment Reports</div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>FAQs</h2>
+        <details>
+            <summary>How do I schedule an interview?</summary>
+            <p>Follow the steps on the scheduling page...</p>
+        </details>
+        <details>
+            <summary>Will I get feedback?</summary>
+            <p>Yes, all candidates receive expert feedback...</p>
+        </details>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <div>
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Features</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3>Follow us</h3>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <p>&copy; 2025 Intervue. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
